@@ -1,0 +1,38 @@
+.MainContainer {
+    display: grid;
+    grid-template-rows: 30% 60%;
+    position: relative;
+    z-index: 1;
+}
+
+.SwimlaneContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addNewMenuOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(225, 225, 225, 0.53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.addNewMenuForm {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    border: 2px solid rgb(226, 226, 226);
+}

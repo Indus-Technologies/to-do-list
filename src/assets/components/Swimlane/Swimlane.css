@@ -1,0 +1,8 @@
+.Swimlane {
+    background-color: rgba(234, 234, 234, 0.745);
+    border: 3px gray double;
+    width: 18%;
+    height: 60vh;
+    border-radius: 20px;
+    overflow: scroll;
+}
