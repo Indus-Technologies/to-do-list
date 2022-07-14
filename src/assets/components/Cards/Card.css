@@ -1,0 +1,45 @@
+.card {
+    width: 250px;
+    height: 175px;
+    /* background-color: red; */
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 20% 65% 15%;
+    border-radius: 20px;
+    position: relative;
+    border: solid 1px black;
+}
+
+.cardTitle {
+    margin: 0px;
+}
+
+.cardDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.cardDueDate {
+    margin: 0px;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 8px;
+}
+
+.green {
+
+}
+
+.yellow {
+    background-color: rgb(214, 94, 50);
+}
+
+.red {
+
+}

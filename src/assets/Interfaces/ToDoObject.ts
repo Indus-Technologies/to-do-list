@@ -1,7 +1,7 @@
 interface toDoObject {
     name: string;
     description: string;
-    dueDate: string;
+    dueDate: Date;
     finished: boolean;
 }
 

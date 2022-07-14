@@ -5,6 +5,19 @@
     z-index: 1;
 }
 
+.header {
+    
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headerButton {
+}
+
 .SwimlaneContainer {
     display: flex;
     justify-content: space-around;
@@ -30,9 +43,41 @@
 }
 
 .addNewMenuForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
     background-color: #FFFFFF;
     width: 50%;
-    height: 50%;
+    /* height: 50%; */
     border-radius: 5%;
     border: 2px solid rgb(226, 226, 226);
+    z-index: 3;
+    position: relative;
+}
+
+.exitNewMenuForm {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: rgb(37, 38, 44);
+    color: white;
+}
+
+.newTitle {
+    width: 60%;
+}
+
+.newDescription {
+    resize: none;
+    width: 60%;
+    height: 50%;
+    padding: 15px;
+}
+
+.calendar {
 }
